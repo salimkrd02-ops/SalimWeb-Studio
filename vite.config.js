@@ -1,0 +1,16 @@
+import { defineConfig } from 'vite';
+
+export default defineConfig({
+  build: {
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        about: 'about.html',
+        contact: 'contact.html',
+        portfolio: 'portfolio.html',
+        pricing: 'pricing.html',
+        services: 'services.html'
+      }
+    }
+  }
+});
